@@ -3,7 +3,7 @@
 /**
  * add- main entry
  * @a: integer
- * @b: integer 
+ * @b: integer
  *  Return: resuylt
  */
 int add(int a, int b)
