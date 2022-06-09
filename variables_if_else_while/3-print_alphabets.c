@@ -18,7 +18,8 @@ int main(void)
 	{
 	putchar(u);
 u++;
+	}
 putchar('\n');
 return (0);
-	}
+	
 }
