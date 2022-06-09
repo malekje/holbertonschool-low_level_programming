@@ -1,6 +1,6 @@
 #include <stdio.h>
 /**
- * _asb - main entry
+ * _abs - main entry
  * @n: checking
  * Return: always 0
  */
