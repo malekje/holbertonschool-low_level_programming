@@ -1,7 +1,7 @@
 #include "main.h"
-/* nul - main entry
- * @: checking
- * @: checking
+/** mul - main entry
+ * @a: checking
+ * @b: checking
  * Return: 0
  */
 int mul(int a, int b)
