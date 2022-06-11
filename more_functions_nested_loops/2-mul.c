@@ -1,5 +1,6 @@
 #include "main.h"
-/** mul - main entry
+/** 
+ * mul - main entry
  * @a: checking
  * @b: checking
  * Return: 0
