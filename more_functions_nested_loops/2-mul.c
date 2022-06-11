@@ -1,5 +1,5 @@
 #include "main.h"
-/** 
+/**
  * mul - main entry
  * @a: checking
  * @b: checking
