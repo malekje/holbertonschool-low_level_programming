@@ -1,6 +1,6 @@
 #include "main.h"
 #include <stdio.h>
-/*
+/**
  * print_square - main entry
  * @size: checking
  * Return: 0
