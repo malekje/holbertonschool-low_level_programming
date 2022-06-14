@@ -1,12 +1,12 @@
 #include "main.h"
 
 /**
- * _srtlen - main entry
- * @s: checking 
+ * _strlen - main entry
+ * @s: checking
  */
 int _strlen(char *s)
 {
-	int n;
+	int n = 0;
 
 	while (*s != '\0')
 	{
