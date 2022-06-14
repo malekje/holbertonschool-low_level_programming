@@ -3,6 +3,7 @@
 /**
  * _strlen - main entry
  * @s: checking
+ * Return: length
  */
 int _strlen(char *s)
 {
