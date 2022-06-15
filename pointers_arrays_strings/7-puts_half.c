@@ -39,7 +39,7 @@ void puts_half(char *str)
 			putchar(str[y]);
 		}
 		putchar('\n');
-
+		}
 		else if (length != 0)
 		{
 			for (h = length / 2; h != length -1; h++)
@@ -49,4 +49,3 @@ void puts_half(char *str)
 			putchar('\n');
 		}
 		}
-}
