@@ -29,7 +29,7 @@ void puts_half(char *str);
 	length = _strlen(str);
 	if (length == 0)
 	{
-		puchar('\n');
+		putchar('\n');
 	}
 	if (length % 2 != 2 && length != 0 )
 	{
