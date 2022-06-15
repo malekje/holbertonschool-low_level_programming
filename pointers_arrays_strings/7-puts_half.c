@@ -19,7 +19,7 @@ int _strlen(char *s)
  * puts_half - main entry
  * @str: string
  */
-void puts_half(char *str);
+void puts_half(char *str)
 {
 	int length;
 	int n;
