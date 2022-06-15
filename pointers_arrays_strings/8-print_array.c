@@ -6,14 +6,14 @@
  */
 void print_array(int *a, int n)
 {
-	int cont;
+	int count;
 
 	for (count = 0; count <= n; count++)
 	{
 		if (count != (n - 1))
-			printf("%d" + ",", a[count]);
+			printf("%d ,", a[count]);
 		else
 			printf("%d",a[count]);
 	}
-	print('\n');
+	printf('\n');
 }
