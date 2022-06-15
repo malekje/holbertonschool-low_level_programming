@@ -13,7 +13,7 @@ void print_array(int *a, int n)
 		if (count != (n - 1))
 			printf("%d ,", a[count]);
 		else
-			printf("%d",a[count]);
+			printf("%d", a[count]);
 	}
-	printf('\n');
+	printf("\n");
 }
