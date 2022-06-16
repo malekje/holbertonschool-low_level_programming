@@ -7,14 +7,14 @@
 char *string_toupper(char *s)
 {
 
-int n;
+	int n;
 
-for (n = 0; s[n] != '\0'; n++)
+	for (n = 0; s[n] != '\0'; n++)
 {
 
-	if (s[n] <= 'z' && s[n] >= 'a')
+		if (s[n] <= 'z' && s[n] >= 'a')
 
-		s[n] = s[n] - 'A' + 'a';
+			s[n] = s[n] - 'A' + 'a';
 }
-return (s);
+	return (s);
 }
