@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * sqrt - main entry
+ * _sqrt - main entry
  * @x: integer
  * @y: integer
  * Return: Always 0.
