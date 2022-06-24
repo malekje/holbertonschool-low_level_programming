@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * main - main entry
+ * *create_array - main entry
  * @size: integer
  * @c: character
  * Return: 0
