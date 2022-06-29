@@ -18,6 +18,6 @@ int *array_range(int min, int max)
 	if (array == NULL)
 	return (NULL);
 	for (i = 0; i < r; i++)
-	array[i] = min = min + 1;
+	array[i] = min++;
 	return (array);
 }
