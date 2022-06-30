@@ -2,7 +2,7 @@
 #include <stdio.h>
 
 /**
-* print_dog - main entry
+* *new_dog - main entry
 * @name: dog's name
 * @age: dog's age
 * @owner: dog's owner
