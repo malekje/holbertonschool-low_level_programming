@@ -1,6 +1,6 @@
 #ifndef _dog_h
 #define _dog_h
-#include <stlib.h>
+#include <stdlib.h>
 #include <string.h>
 #include <stdio.h>
 
