@@ -12,7 +12,7 @@ void i(va_list integer)
 
 void f(va_list _float)
 {
-	printf("%f", va_arg(_float, int));
+	printf("%f", va_arg(_float, double));
 }
 
 void s(va_list, string)
@@ -23,7 +23,7 @@ void s(va_list, string)
 	printf("(nil)");
 	return;
 	}
-	printf("%s", va_arg(char *))
+	printf("%s", va_arg(string, char *))
 }
 
 
