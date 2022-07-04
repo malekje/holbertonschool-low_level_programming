@@ -15,7 +15,7 @@ void f(va_list _float)
 	printf("%f", va_arg(_float, double));
 }
 
-void s(va_list, string)
+void s(va_list, string1)
 {
 	char *str;
 	if (str == NULL)
@@ -23,7 +23,7 @@ void s(va_list, string)
 	printf("(nil)");
 	return;
 	}
-	printf("%s", va_arg(string, char *))
+	printf("%s", va_arg(string1, char *))
 }
 
 
@@ -35,5 +35,5 @@ void s(va_list, string)
 */
 void print_all(const char * const format, ...)
 {
-
+(void) format;
 }
