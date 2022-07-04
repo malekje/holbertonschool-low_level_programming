@@ -15,7 +15,7 @@ void f(va_list _float)
 	printf("%f", va_arg(_float, double));
 }
 
-void s(va_list, stdin)
+void s(va_list string)
 {
 	char *str;
 	if (str == NULL)
@@ -23,7 +23,7 @@ void s(va_list, stdin)
 	printf("(nil)");
 	return;
 	}
-	printf("%s", va_arg(stdin, char *))
+	printf("%s", va_arg(string, char *))
 }
 
 
