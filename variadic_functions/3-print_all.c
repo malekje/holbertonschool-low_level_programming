@@ -23,7 +23,7 @@ void s(va_list string)
 	printf("(nil)");
 	return;
 	}
-	printf("%s", va_arg(string, char *))
+	printf("%s", va_arg(string, char *));
 }
 
 
