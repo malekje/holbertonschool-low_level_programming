@@ -1,5 +1,5 @@
 #include "lists.h"
-/** 
+/**
  * _main - Apply the constructor attribute so that it
  *  is executed before main()
  *  Return: 0
