@@ -11,7 +11,6 @@ unsigned int binary_to_uint(const char *b)
 	unsigned int sum, i;
 	int n, length = strlen(b);
 
-
 	sum = 0;
 	i = 1;
 	n = 0;
