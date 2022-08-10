@@ -15,7 +15,7 @@ int main(void)
 		putchar(i);
 		i = i + 1;
 	}
-	while (a2f <= 'f') 
+	while (a2f <= 'f')
 	{
 		putchar(a2f);
 		a2f = a2f + 1;
