@@ -2,7 +2,7 @@
 
 /**
  * main - print the largest prime factor of 612852475143
- * 
+ *
  * Return: 0
  */
 
@@ -10,7 +10,7 @@ int main(void)
 {
 	unsigned long n, div = 2;
     n = 612852475143;
-	
+
 
 	while (div < n)
 	{
