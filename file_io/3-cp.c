@@ -9,7 +9,8 @@
 int main(int argc, char **argv)
 {
 	char *buffer;
-	int first, last, _read, _write;
+	int first, last;
+	int _read, _write;
 
 	if (argc != 3)
 	{
@@ -20,7 +21,7 @@ int main(int argc, char **argv)
 	}
 
 
-	buffer = create_file(argv[2]);
+	buffer = new_buffer(argv[2]);
 
 
 	first = open(argv[1], O_RDONLY);
@@ -54,8 +55,8 @@ int main(int argc, char **argv)
 	while (_read > 0);
 
 	first(buffer);
-	close_file(first);
-	close_file(last);
+	exit_file(first);
+	exit_file(last);
 
 	return (0);
 
