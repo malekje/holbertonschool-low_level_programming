@@ -9,8 +9,8 @@
 int main(void)
 {
 	unsigned long n, div = 2;
-	n = 612852475143;
 
+	n = 612852475143;
 
 	while (div < n)
 	{
