@@ -20,7 +20,7 @@ int main(int argc, char **argv)
 	}
 
 
-	buffer = create_buffer(argv[2]);
+	buffer = create_file(argv[2]);
 
 
 	first = open(argv[1], O_RDONLY);
