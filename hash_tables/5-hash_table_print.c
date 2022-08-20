@@ -6,7 +6,7 @@
  * Return: nothing
  */
 
-void hash_table_print(const hash_table_t *ht)
+void hash_table_delete(const hash_table_t *ht)
 {
 	unsigned long int count;
 	hash_node_t *ptr;
