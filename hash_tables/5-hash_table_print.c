@@ -6,26 +6,26 @@
  * Return: nothing
  */
 
-void hash_table_delete(hash_table_t *ht)
+void hash_table_print(const hash_table_t *ht)
 {
-	unsigned long int idx;
-	hash_node_t *hash;
+	unsigned long int count;
+	hash_node_t *ptr;
+	char check = 0;
 
-	if (!ht || !ht->array)
-	return;
-	for (idx = 0; idx < ht->size; idx++)
+	if (ht == NULL || ht->array == NULL)
+		return;
+	printf("{");
+	for (count = 0; count < ht->size; count++)
 	{
-		while (ht->array[index])
+		ptr = ht->array[count];
+		while (ptr != NULL)
 		{
-			element = ht->array[index]->next;
-			free(ht->array[index]->key);
-			free(ht->array[index]->value);
-			free(ht->array[index]);
-			ht->array[index] = element;
+			if (check == 1)
+			printf(", ");
+			printf("'%s': '%s'", ptr->key, ptr->value);
+			check = 1;
+			ptr = ptr->next;
 		}
-
-	free(ht->array[idx]);
 	}
-	free(ht->array);
-	free(ht);
+	printf("}\n");
 }
