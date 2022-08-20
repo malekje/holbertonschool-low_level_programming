@@ -1,12 +1,12 @@
 #include "hash_tables.h"
 
 /**
- * hash_table_delete - function that deletes a hash table
+ * hash_table_print - function that deletes a hash table
  * @ht: hash table
  * Return: nothing
  */
 
-void hash_table_delete(const hash_table_t *ht)
+void hash_table_print(const hash_table_t *ht)
 {
 	unsigned long int count;
 	hash_node_t *ptr;
